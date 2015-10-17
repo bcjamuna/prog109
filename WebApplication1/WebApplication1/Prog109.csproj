@@ -43,6 +43,14 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="AutoMapper, Version=3.3.1.0, Culture=neutral, PublicKeyToken=be96cd2c38ef1005, processorArchitecture=MSIL">
+      <HintPath>..\packages\AutoMapper.3.3.1\lib\net40\AutoMapper.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="AutoMapper.Net4, Version=3.3.1.0, Culture=neutral, PublicKeyToken=be96cd2c38ef1005, processorArchitecture=MSIL">
+      <HintPath>..\packages\AutoMapper.3.3.1\lib\net40\AutoMapper.Net4.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
       <Private>True</Private>
@@ -64,9 +72,14 @@
     <Reference Include="System.Configuration" />
     <Reference Include="System.Web.Services" />
     <Reference Include="System.EnterpriseServices" />
+    <Reference Include="Uab.RO.ESAPIX, Version=0.0.9.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Uab.RO.ESAPIX.0.0.9.5\lib\net45\Uab.RO.ESAPIX.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
+    <None Include="Properties\PublishProfiles\bcjamuna.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -76,6 +89,29 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="prog109\chess\chesspage.html" />
+    <Content Include="prog109\images\bclogo.jpg" />
+    <Content Include="prog109\images\black-bishop.png" />
+    <Content Include="prog109\images\black-castle.png" />
+    <Content Include="prog109\images\black-king.png" />
+    <Content Include="prog109\images\black-knight.png" />
+    <Content Include="prog109\images\black-pawn.png" />
+    <Content Include="prog109\images\black-queen.png" />
+    <Content Include="prog109\images\chessbullet.jpg" />
+    <Content Include="prog109\images\chessbullet.png" />
+    <Content Include="prog109\images\croppednature.jpg" />
+    <Content Include="prog109\images\gold-bishop.png" />
+    <Content Include="prog109\images\gold-castle.png" />
+    <Content Include="prog109\images\gold-castle1.png" />
+    <Content Include="prog109\images\gold-king.png" />
+    <Content Include="prog109\images\gold-king1.png" />
+    <Content Include="prog109\images\gold-knight.png" />
+    <Content Include="prog109\images\gold-knight1.png" />
+    <Content Include="prog109\images\gold-pawn.png" />
+    <Content Include="prog109\images\gold-queen.png" />
+    <Content Include="prog109\images\nature.jpg" />
+    <Content Include="prog109\images\paisley.jpg" />
+    <Content Include="prog109\images\prog109.jpg" />
+    <Content Include="prog109\images\thankyou.jpg" />
     <Content Include="prog109\style\chessstyle1.css" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -83,7 +119,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="prog109\images\" />
     <Folder Include="prog109\lectures\" />
   </ItemGroup>
   <PropertyGroup>
@@ -118,6 +153,7 @@
     <Error Condition="!Exists('..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props'))" />
     <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
   </Target>
+  <Import Project="..\packages\AutoMapper.3.3.1\tools\AutoMapper.targets" Condition="Exists('..\packages\AutoMapper.3.3.1\tools\AutoMapper.targets')" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">
