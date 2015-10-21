@@ -1,114 +1,107 @@
-﻿body{
-   background-image:url(/prog109/images/paisley.jpg);
-   background-repeat:repeat;
+﻿body {
+    background-image: url(/prog109/images/paisley.jpg);
+    background-repeat: repeat;
 }
 
-   #nav_week_3{
-   text-color:white;
+#title {
+    padding-left: 10%;
+    margin-top: 100px;
+    font-size: xx-large;
+    font-family: 'UniqueRegular';
+    font-weight: normal;
+    font-style: normal;
+    text-align: center;
+    
 }
 
-#title{
-   padding-left:10px;
-   margin-top:100px;
-   font-family:'UniqueRegular'; 
-   font-weight: normal;
-   font-style: normal; 
-   font-size:250%;
-   text-align:center;
-   text-shadow: 0px 0px 15px white;
-   color: #000000;
-   font-size: 40px; 
+#menu {
+    border-style: groove;
+    background-color: #333333;
+    height:65px;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;   
 }
-
-
-
-#menu{
-  border-style:groove;
-  background-color: #333333;
-  height: 65px;
-  padding-top:5px;
-  text-align:center; 
-}
-
 
 /*navlist refers to menu links and images*/
 #navlist {
-    list-style:none;
+    list-style: none;
     margin: 0;
-    padding: 20px 0px 20px; 
+    padding: 20px 0 20px;
 }
 
-#navlist ul {
-    margin: 0;
-    padding: 0;
-}
+    #navlist ul {
+        margin: 0;
+        padding: 0;
+    }
 
-#navlist li {
-    display: inline-block;
-    background-repeat: no-repeat;
-    background-position: 0 50%;
-    padding: 3px 0 3px 0;
-    margin: 0 20px 0 .4em;
-}
+    #navlist li {
+        display: inline-block;
+        background-repeat: no-repeat;
+        background-position: 0 50%;
+        padding: 3px 0 3px 0;
+        margin: 0 20px 0 .4em;
+    }
 
-#navlist li a {
-    text-decoration:none;
-    padding-left: 30px;
-    color: white
-}
+        #navlist li a {
+            text-decoration: none;
+            padding-left: 30px;
+            color: white;
+        }
 
 #navlist li.home {
     background-image: url(/prog109/images/gold-king1.png);
-     
-
 }
 
 #navlist li.bc {
     background-image: url(/prog109/images/gold-castle1.png);
-       
-
 }
 
 #navlist li.historychess {
     background-image: url(/prog109/images/gold-knight1.png);
-   
-
 }
+
 
 
 /*This is an ID*/
-#board{
-     height:640px; 
-     vertical-align:middle;
-     margin:auto;
-     padding-left: 35px;
-/*text align center aligned all chess pieces at center of their squares*/
-     text-align:center; 
-}
+#board {
+    height: 640px;
   
+    margin: 0 auto;
+    padding-left: 35px;
+    /*text align center aligned all chess pieces at center of their squares*/
+    text-align: center;
+}
 
 /*This is a class*/
 .row {
- position:relative;
- margin-left:10%;
- margin-right:10%;
+    position: relative;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .darkcell {
-  width:40px;
-  height:40px;
-  border-style:hidden;
-  background-color:#000000;
-  float:left; 
+    width: 40px;
+    height: 40px;
+    border-style: hidden;
+    background-color: #000000;
+    float:left;
 }
+
 .lightcell {
-  width:40px;
-  height:40px;
-  border-style:hidden;
-  background-color:#ffffff;
-  float:left;
+    width: 40px;
+    height: 40px;
+    border-style: hidden;
+    background-color: #ffffff;
+    float:left;
 }
 
 .break {
-  clear:both;
+    clear: both;
+}
+
+#footer {
+    border: solid 1px;
+    padding: 10px;
+    margin: 10px;
 }

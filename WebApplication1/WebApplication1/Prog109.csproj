@@ -78,6 +78,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="index.html" />
     <Content Include="packages.config" />
     <None Include="Properties\PublishProfiles\bcjamuna.pubxml" />
     <None Include="Web.Debug.config">
@@ -88,7 +89,10 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="prog109\artifacts\contactus.html" />
+    <Content Include="prog109\artifacts\contactusform.html" />
     <Content Include="prog109\chess\chesspage.html" />
+    <Content Include="prog109\HtmlPage1.html" />
     <Content Include="prog109\images\bclogo.jpg" />
     <Content Include="prog109\images\black-bishop.png" />
     <Content Include="prog109\images\black-castle.png" />
@@ -99,6 +103,7 @@
     <Content Include="prog109\images\chessbullet.jpg" />
     <Content Include="prog109\images\chessbullet.png" />
     <Content Include="prog109\images\croppednature.jpg" />
+    <Content Include="prog109\images\fish.jpg" />
     <Content Include="prog109\images\gold-bishop.png" />
     <Content Include="prog109\images\gold-castle.png" />
     <Content Include="prog109\images\gold-castle1.png" />
@@ -112,15 +117,25 @@
     <Content Include="prog109\images\paisley.jpg" />
     <Content Include="prog109\images\prog109.jpg" />
     <Content Include="prog109\images\thankyou.jpg" />
+    <Content Include="prog109\lectures\week2_forms.html" />
+    <Content Include="prog109\lectures\week1.html" />
+    <Content Include="prog109\lectures\week2.html" />
+    <Content Include="prog109\lectures\week3.html" />
+    <Content Include="prog109\lectures\week4.html" />
+    <Content Include="prog109\myportfolio\thankyou.html" />
+    <Content Include="prog109\artifacts\jamuna-resume.html" />
     <Content Include="prog109\style\chessstyle1.css" />
+    <Content Include="prog109\style\contactstyle10.css" />
+    <Content Include="prog109\style\contactstyle.css" />
+    <Content Include="prog109\style\style.css" />
+    <Content Include="prog109\style\StyleSheet1.css" />
+    <Content Include="prog109\style\week4style.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="prog109\lectures\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
