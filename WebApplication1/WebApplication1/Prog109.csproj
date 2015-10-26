@@ -93,7 +93,7 @@
     <Content Include="prog109\experimental\contactus.html" />
     <Content Include="prog109\experimental\contactusform.html" />
     <Content Include="prog109\chess\chesspage.html" />
-    <Content Include="prog109\chess\contactus.html" />
+    <Content Include="prog109\artifacts\contactus.html" />
     <Content Include="prog109\experimental\css3.html" />
     <Content Include="prog109\experimental\styles\mainstylecss3.css" />
     <Content Include="prog109\experimental\styles\heading.css" />
