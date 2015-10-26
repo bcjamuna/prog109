@@ -130,12 +130,18 @@ li {
 #inputs {
     width: 15em;
     clear: both;
+   
 }
 
     #inputs input {
         width: 100%;
         clear: both;
+         color:cadetblue;
     }
+
+
+
+
 
 .submit {
     text-align: center;
