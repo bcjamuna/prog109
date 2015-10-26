@@ -24,7 +24,6 @@ h2 {
     border-style:solid;
     border-width:1px;
     width:75%;
-
 }
 #left {
     float:left;
@@ -67,7 +66,7 @@ h2 {
     background-color:rgba(255, 255, 255, 0.58);
 }
 
-#bottomleftbox {   
+#bottomleftbox {
     float:left;
     border-style:solid;
     border-width:1px;
@@ -82,7 +81,6 @@ h2 {
 #clear {
     clear:both;
 }
-
 
 .clearfix:after {
     content: ".";

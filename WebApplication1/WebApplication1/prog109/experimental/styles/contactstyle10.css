@@ -16,7 +16,6 @@ right {
 }
 */
 
-
 #header
 {
 padding:20px;
@@ -32,7 +31,7 @@ padding:20px;
 clear:both
 }
 #article,#sidebar
-{ 
+{
 min-height:250px;margin-bottom:20px;overflow:auto
 }
 
@@ -50,9 +49,7 @@ text-align:center;
 color:#000000
 }
 
-
 @media only screen and (min-width: 768px){
-
 #article
 {
 float:left;
@@ -73,20 +70,15 @@ width:10%;
 float:right;
 width:80%;
 }
-
 }
 
-
 @media only screen and (min-width: 1140px) {
-
     #main {
         padding: 20px 40px 20px 40px;
     }
 }
 
-
 @media only screen and (min-width: 480px){
-
 ul
 {
 float:left;
@@ -98,5 +90,4 @@ width:16%;
 padding:4px;
 margin-right:8px
 }
-
 }

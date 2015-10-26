@@ -25,7 +25,6 @@ form header {
     form header div {
         font-size: 90%;
         color: #999;
-         
     }
 
     form header h2 {
@@ -37,7 +36,6 @@ form > div {
     overflow: hidden;
     padding: 1px;
     margin: 0 0 10px 0;
-
 }
 #lefttable {
     float: left;
@@ -49,10 +47,8 @@ form > div {
 }
     form > div > fieldset > div > div {
         margin: 0 0 5px 0;
-        font-weight:bolder;    
-       
+        font-weight:bolder;
  }
-    
 
     form > div > label,
     legend {
@@ -60,14 +56,12 @@ form > div {
         float: left;
         padding-right: 10px;
         font-weight:bolder;
-        
     }
 
     form > div > div,
     form > div > fieldset > div {
         width: 75%;
         float: right;
-      
     }
 
     form > div > fieldset label {
@@ -91,7 +85,6 @@ textarea {
     border-left: 1px solid #ccc;
     border-right: 1px solid #eee;
     border-bottom: 1px solid #eee;
-   
 }
 
 input[type=text],
@@ -99,8 +92,6 @@ input[type=email],
 input[type=url],
 input[type=password] {
     width: 50%;
-
-     
 }
 
     input[type=text]:focus,
@@ -110,7 +101,6 @@ input[type=password] {
     textarea:focus {
         outline: 0;
         border-color: rgb(255, 216, 0);
-      
     }
 
 @media (max-width: 600px) {
@@ -123,14 +113,12 @@ input[type=password] {
             width: 100%;
             float: none;
             margin: 0 0 5px 0;
-
         }
 
         form > div > div,
         form > div > fieldset > div {
             width: 100%;
             float: none;
-
         }
 
     input[type=text],
@@ -141,7 +129,6 @@ input[type=password] {
     select {
         width: 100%;
         font-weight:bolder;
-        
     }
 }
 

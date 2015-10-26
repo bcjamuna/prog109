@@ -1,38 +1,39 @@
 ﻿body {
-  background-color:#FFB6C1;
+    background-color: #FFB6C1;
 }
 /*This is an ID */
 #main {
-  color:black;
+    color: black;
 }
 
 h1 {
-  color:white;
+    color: white;
 }
 
 h2 {
-  color:gray;
-  font-size:25pt;
+    color: gray;
+    font-size: 25pt;
 }
 
 /*This is a class */
 h1.lectures {
-  background-color:white;
-}
-p{
-  padding-left:10px;
-   font-family: 'AlexBrushRegular'; 
-   font-weight: normal; 
-   font-style: normal; 
-   font-size:35pt;
+    background-color: white;
 }
 
-h3{
+p {
+    padding-left: 10px;
+    font-family: 'AlexBrushRegular';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 35pt;
+}
+
+h3 {
     font-family: 'CRYSTALRegular';
-   font-weight: normal;
-   font-style: normal; 
-   color:#E60075;
-   font-size:20pt;
+    font-weight: normal;
+    font-style: normal;
+    color: #E60075;
+    font-size: 20pt;
 }
 
 h4 {
