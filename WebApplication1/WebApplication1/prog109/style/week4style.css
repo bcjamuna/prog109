@@ -10,6 +10,14 @@ body {
     margin: 0 auto;
 }
 
+h1 {
+   font-family: 'AlexBrushRegular'; 
+   font-weight: normal; 
+   font-style: normal;
+   font-size:4em;  
+}
+
+
 #content {
     overflow: auto;
 }

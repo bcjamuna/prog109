@@ -98,6 +98,7 @@
     <Content Include="prog109\experimental\styles\mainstylecss3.css" />
     <Content Include="prog109\experimental\styles\heading.css" />
     <Content Include="prog109\experimental\styles\paragraph.css" />
+    <Content Include="prog109\style\liquidstyle.css" />
     <Content Include="prog109\style\stylesheet.css" />
     <Content Include="prog109\HtmlPage1.html" />
     <Content Include="prog109\images\bclogo.jpg" />

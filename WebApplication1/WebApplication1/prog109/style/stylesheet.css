@@ -130,7 +130,7 @@ li {
 #inputs {
     width: 15em;
     clear: both;
-   
+   text-align:left;
 }
 
     #inputs input {
@@ -140,12 +140,17 @@ li {
     }
 
 
+span {
+    font-size: x-small;
+}
 
+#subwrapper {
+    text-align:center; 
+}
 
-
-.submit {
-    text-align: center;
-    padding: 1.5em;
+div #submit, #cancel {
+    display:inline-block;
+   margin:3em 0 0 0;  
 }
 
 /* Make Footer Sticky */
