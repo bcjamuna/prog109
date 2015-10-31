@@ -99,8 +99,10 @@
     <Content Include="prog109\experimental\styles\heading.css" />
     <Content Include="prog109\experimental\styles\paragraph.css" />
     <Content Include="prog109\images\petrifiedwoodgettyimages.jpg" />
+    <Content Include="prog109\lectures\week6javascript.js" />
     <Content Include="prog109\lectures\Week5.html" />
     <Content Include="prog109\lectures\Week5JavaScript.js" />
+    <Content Include="prog109\lectures\Week6.html" />
     <Content Include="prog109\style\javascriptstyle.css" />
     <Content Include="prog109\style\liquidstyle.css" />
     <Content Include="prog109\style\stylesheet.css" />
@@ -147,6 +149,7 @@
     <Content Include="prog109\style\style.css" />
     <Content Include="prog109\style\StyleSheet1.css" />
     <Content Include="prog109\style\week4style.css" />
+    <Content Include="prog109\style\week6style.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
