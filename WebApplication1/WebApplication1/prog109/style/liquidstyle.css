@@ -4,6 +4,8 @@
 				color: #665544;
 				text-align: center;}
 			body {
+                background-image: url(/prog109/images/paisley.jpg);
+                background-repeat: repeat;
 				width: 90%;
 				margin: 0 auto;}
 
@@ -13,7 +15,6 @@
                font-style: normal;
                font-size:4em;  
 }
-
 			#content {
 				overflow: auto;}
 			#nav, #feature, #footer {
@@ -28,9 +29,17 @@
 				display: inline;
 				padding: 0.5em;}
 			#nav, #footer {
-				background-color: #efefef;
+				background-color: rgba(245, 143, 143, 0.65);
 				padding: 0.5em 0;}
 			#feature, .article {
 				height: 10em;
 				margin-bottom: 1em;
-				background-color: #efefef;}
+				background-color: rgba(245, 143, 143, 0.65);
+			}
+
+#feature {
+    background-image: url('http://cache3.asset-cache.net/gc/123521121-petrified-wood-petrified-forest-np-az-gettyimages.jpg?v=1&c=IWSAsset&k=2&d=6q%2bUnajr3HfEnNPqALd7OHzTFwgP4XcGXt1WrEGiGwONx6TL%2fvtCdVhlp0%2fkaMpQ');
+    background-repeat: repeat;
+    background-position-x:center;
+    background-size:35%;
+}
