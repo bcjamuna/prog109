@@ -98,6 +98,9 @@
     <Content Include="prog109\experimental\styles\mainstylecss3.css" />
     <Content Include="prog109\experimental\styles\heading.css" />
     <Content Include="prog109\experimental\styles\paragraph.css" />
+    <Content Include="prog109\images\happybulletsmall.jpg" />
+    <Content Include="prog109\images\happybulletsmaller.png" />
+    <Content Include="prog109\images\happybulletsmallerwhite.png" />
     <Content Include="prog109\images\petrifiedwoodgettyimages.jpg" />
     <Content Include="prog109\lectures\week6javascript.js" />
     <Content Include="prog109\lectures\Week5.html" />

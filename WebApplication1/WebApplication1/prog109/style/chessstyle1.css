@@ -59,7 +59,10 @@
 #navlist li.historychess {
     background-image: url(/prog109/images/gold-knight1.png);
 }
-
+/*main {
+    display:block;
+    width:200px; height:200px; background-color:yellow; position:relative;
+}*/
 /*This is an ID*/
 #board {
     height: 640px;
