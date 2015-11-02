@@ -2,24 +2,26 @@
     background-image: url(/prog109/images/paisley.jpg);
     background-repeat: repeat;
 }
-
+#title, #menu, main {
+    text-align: center;
+    width:auto;
+}
 #title {
-    padding-left: 10%;
-    margin-top: 100px;
+
+    margin-top: 80px;
     font-size: xx-large;
     font-family: 'UniqueRegular';
     font-weight: normal;
     font-style: normal;
-    text-align: center;
+    
 }
 
 #menu {
     border-style: groove;
     background-color: #333333;
     height:65px;
-    text-align: center;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    
+   
 }
 
 /*navlist refers to menu links and images*/
@@ -59,16 +61,22 @@
 #navlist li.historychess {
     background-image: url(/prog109/images/gold-knight1.png);
 }
-/*main {
+main {
     display:block;
-    width:200px; height:200px; background-color:yellow; position:relative;
-}*/
+    position:relative;
+    padding-left:12em;
+}
 /*This is an ID*/
 #board {
-    height: 640px;
-
-    margin: 0 auto;
-    padding-left: 35px;
+   
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    width: 640px;
+    height: 400px;
+    
+   
     /*text align center aligned all chess pieces at center of their squares*/
     text-align: center;
 }
@@ -100,8 +108,8 @@
     clear: both;
 }
 
-#footer {
-    border: solid 1px;
-    padding: 10px;
+footer {
+    padding: 5px;
     margin: 10px;
+    text-align: center;
 }

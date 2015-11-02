@@ -90,6 +90,8 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="prog109\artifacts\rhombus.html" />
+    <Content Include="prog109\artifacts\rhombus.js" />
     <Content Include="prog109\experimental\contactus.html" />
     <Content Include="prog109\experimental\contactusform.html" />
     <Content Include="prog109\chess\chesspage.html" />
@@ -108,6 +110,7 @@
     <Content Include="prog109\lectures\Week6.html" />
     <Content Include="prog109\style\javascriptstyle.css" />
     <Content Include="prog109\style\liquidstyle.css" />
+    <Content Include="prog109\style\rhombusstyle.css" />
     <Content Include="prog109\style\stylesheet.css" />
     <Content Include="prog109\HtmlPage1.html" />
     <Content Include="prog109\images\bclogo.jpg" />
