@@ -165,10 +165,13 @@
     <Content Include="fonts\Rochester-Regular-webfont.ttf" />
     <Content Include="fonts\Rochester-Regular-webfont.woff" />
     <None Include="Properties\PublishProfiles\bcjamuna.pubxml" />
+    <None Include="Properties\PublishProfiles\BCJamunaPortfolio.pubxml" />
     <None Include="Properties\PublishProfiles\bcjamunaweek4.pubxml" />
-    <None Include="Properties\PublishProfiles\Prog109Portfolio2015.pubxml" />
     <None Include="Scripts\jquery-1.9.1.intellisense.js" />
     <Content Include="prog109\experimental\Experimental.aspx" />
+    <Content Include="prog109\style\rhombus.css" />
+    <Content Include="prog109\experimental\rhombus.html" />
+    <Content Include="prog109\experimental\rhombus.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-1.9.1.js" />
