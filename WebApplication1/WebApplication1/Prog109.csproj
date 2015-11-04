@@ -151,6 +151,7 @@
     <Content Include="images\works-bg.png" />
     <Content Include="images\zoom.png" />
     <Content Include="mountainy\index.html" />
+    <Content Include="prog109\experimental\extras.js" />
     <Content Include="prog109\experimental\prologueindex.html" />
     <Content Include="index.html" />
     <Content Include="packages.config" />
