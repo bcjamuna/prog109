@@ -116,7 +116,7 @@ section.form {
     /*form on right*/
 }
 
-hgroup {
+div {
     margin-top: 15px;
 }
 
@@ -200,6 +200,10 @@ h3 {
     margin: 40px 0;
     color: rgba(40, 26, 22, 0.68);
     font-size: 1em;
+}
+h4{
+    font-size:xx-small;
+    color:transparent;
 }
 
 aside h2 {

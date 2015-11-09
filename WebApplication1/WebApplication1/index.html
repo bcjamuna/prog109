@@ -2,14 +2,16 @@
 <html>
 <head>
     <title>Jamuna's Web Portfolio</title>
-        <link type="text/css" href="prog109/style/portfoliostyle.css" rel="stylesheet" />
+    <link type="text/css" href="prog109/style/indexstyle.css" rel="stylesheet" />
+    <link rel="author" type="image" href="https://web.smugmug.com/Public/Nightscapes/i-KH47gcJ/2/XL/Mount%20Rainier%20Nightscape-23-XL.jpg" />
+    <link rel="author" type="image" href="http://www.bastyr.edu/sites/default/files/images/news/Rainier_rainforest.jpg" />
     <!--
     [if lt IE 9]>
-    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <script src=" http//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 </head>
 <body>
-
+    <form action="../myportfolio/thankyou.html" method="get"></form>
     <header>
         <h1>Welcome to Jamuna's Web Portfolio!</h1>
         <img src="prog109/images/greyjbcrp.png" id="logo" alt="jblogo" />
@@ -17,44 +19,49 @@
         <nav>
             <ul>
                 <li><a href=""> <!--class="current"-->HOME</a></li>
-                <li><a href="">ABOUT</a></li>
-                <li><a href="">COURSEWORK</a></li>
-                <li><a href="">ARTIFACTS</a></li>
-                <li><a href="">CONTACT ME</a></li>
-                <li><a href="">MY PAGE?</a></li>
+                <li><a href="prog109/myportfolio/about.html">ABOUT</a></li>
+                <li><a href="prog109/myportfolio/coursework.html">COURSEWORK</a></li>
+                <li><a href="prog109/myportfolio/artifacts.html">ARTIFACTS</a></li>
+                <li><a href="prog109/myportfolio/contactform.html">CONTACT ME</a></li>
+                <li><a href="prog109/myportfolio/mypage.html">MY PAGE</a></li>
             </ul>
         </nav>
     </header>
 
     <div class="wrapper">
-        <section class="courses">
-            <a href="http://www.htmlandcssbook.com/code-samples/chapter-17/sauces.html">
+       
+        <article>
+
+            <hgroup>
+                <h5>A Portfolio Website</h5>
+                <h3>Created by: Jamuna</h3>
+            </hgroup>
+            <p>
+                In Fall 2015, at Bellevue College, there is a technical course called Prog 109.
+                This class is taught by Maricel Medina-Mora and covers introduction to ML, CSS and Javascript.
+            </p>
+            <br />
+            <p>
+                This portfolio website was created by a student of this class, her name is Jamuna. Each page
+                features assigned classwork, projects or self-reflections. Please take a moment to browse the site.
+                I hope you will enjoy it as much as she enjoyed creating it. Cheers!
+            </p>
+        </article>
+          
+           <br />
                 <article>
                     <figure>
-                        <img src="http://www.htmlandcssbook.com/code-samples/chapter-17/images/bok-choi.jpg" alt="Bok Choi" />
-                        <figcaption>Bok Choi</figcaption>
+
+                        <img src="prog109/images/mtrainierforestsmaller.jpg" alt="Mt Rainier RainForest" />
+                        <figcaption>Mt Rainier RainForest</figcaption>
                     </figure>
-                    <hgroup>
-                        <h2>Japanese Vegetarian</h2>
-                        <h3>Five week course in London</h3>
-                    </hgroup>
-                    <p>A five week introduction to traditional Japanese vegetarian meals, teaching you a selection of rice and noodle dishes.</p>
-                </article>
-            </a>
-            <a href="sauces.html">
-                <article>
                     <figure>
-                        <img src="http://www.htmlandcssbook.com/code-samples/chapter-17/images/bok-choi.jpg" alt="Teriyaki sauce" />
-                        <figcaption>Teriyaki Sauce</figcaption>
+                        <img src="prog109/images/mtrainiernightsmall.jpg" alt="Mt Rainier Nightscape" />
+                        <figcaption>Mt Rainier Nightscape</figcaption>
                     </figure>
-                    <hgroup>
-                        <h2>Sauces Masterclass</h2>
-                        <h3>One day workshop</h3>
-                    </hgroup>
-                    <p>An intensive one-day course looking at how to create the most delicious sauces for use in a range of Japanese cookery.</p>
-                </article>
-            </a>
-        </section>
+                     </article>
+           
+       
         <aside>
             <section class="popular-recipes">
                 <h2>Popular Recipes</h2>

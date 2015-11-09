@@ -47,6 +47,7 @@ body {
     overflow: auto;
     clear: both;
     -webkit-overflow-scrolling: touch;
+    text-align:center;
 }
 
 nav, header, h1 {
@@ -54,6 +55,7 @@ nav, header, h1 {
     position: relative;
     z-index: 9;
 }
+
 
 header {
     background: url('../images/greytilesmm.png');
@@ -106,47 +108,36 @@ nav {
                 color: #000000;
             }
 
-section.courses {
+/*section.courses {
     float: right;
     width: 650px;
     border-left: 1px solid #eeeeee;
     padding-left: 25px;
-}
+}*/
 
 hgroup {
-    margin-top: 40px;
+    margin-top: 10px;
+
 }
 
 figure {
-    float: right;
+    
     width: 300px;
     height: 220px;
     padding: 5px;
     padding-left: 5px;
     margin: 20px;
     border: 1px solid #eeeeee;
+   
 }
 
 figcaption {
     font-size: 80%;
-    text-align: right;
     color: black;
-}
-
-aside {
-    width: 250px;
-    float: left;
-    padding: 0 0 0 5px;
-    clear: left;
     display:none;
 }
 
-    aside section a {
-        display: block;
-        padding: 10px;
-        line-height: 30px;
-        border-bottom: 1px solid #eeeeee;
-    }
+
 
 body, html {
     overflow: hidden;
@@ -175,9 +166,9 @@ h2, h3 {
 
 h2 {
     font-size: 1.25em;
-    margin: 5px 0 5px 0;
-    padding: 3px 0;
-    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    
+    
+    font-family: Georgia, Times, Times New Roman, serif;
     color: black;
 }
 
