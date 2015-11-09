@@ -90,87 +90,31 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Content\bootstrap-theme.css" />
-    <Content Include="Content\bootstrap-theme.min.css" />
-    <Content Include="Content\bootstrap.css" />
-    <Content Include="Content\bootstrap.min.css" />
-    <Content Include="mountainy\css\jquery.mmenu.all.css" />
-    <Content Include="mountainy\css\magnific-popup.css" />
-    <Content Include="mountainy\css\style.css" />
-    <Content Include="mountainy\css\style2.css" />
-    <Content Include="mountainy\css\vallenato.css" />
-    <Content Include="fonts\glyphicons-halflings-regular.svg" />
-    <Content Include="fonts\Rochester-Regular-webfont.svg" />
-    <Content Include="images\admin-pic1.jpg" />
-    <Content Include="images\admin-pic2.jpg" />
-    <Content Include="images\admin-pic3.jpg" />
-    <Content Include="images\admin-pic4.jpg" />
-    <Content Include="images\alertcloseico.png" />
-    <Content Include="images\arrows.png" />
-    <Content Include="images\artical-pic1.jpg" />
-    <Content Include="images\artical-pic2.jpg" />
-    <Content Include="images\artical-pic3.jpg" />
-    <Content Include="images\artical-pic4.jpg" />
-    <Content Include="images\button-next.png" />
-    <Content Include="images\button-previous.png" />
-    <Content Include="images\dotts-bg.png" />
-    <Content Include="images\down-arrow.png" />
-    <Content Include="images\f1.jpg" />
-    <Content Include="images\f2.jpg" />
-    <Content Include="images\f3.jpg" />
-    <Content Include="images\f4.jpg" />
-    <Content Include="images\f5.jpg" />
-    <Content Include="images\f6.jpg" />
-    <Content Include="images\loader.gif" />
-    <Content Include="images\logo.png" />
-    <Content Include="images\move-top.png" />
-    <Content Include="images\nav-icon.png" />
-    <Content Include="images\news-slider-icons.png" />
-    <Content Include="images\p1.jpg" />
-    <Content Include="images\p2.jpg" />
-    <Content Include="images\p3.jpg" />
-    <Content Include="images\p4.jpg" />
-    <Content Include="images\p5.jpg" />
-    <Content Include="images\p6.jpg" />
-    <Content Include="images\p7.jpg" />
-    <Content Include="images\p8.jpg" />
-    <Content Include="images\pagenate.png" />
-    <Content Include="images\right-arrow.png" />
-    <Content Include="images\right-arrowb.png" />
-    <Content Include="images\search-icons.png" />
-    <Content Include="images\services-bg.jpg" />
-    <Content Include="images\services-icons.png" />
-    <Content Include="images\slide-dotts.png" />
-    <Content Include="images\slide-icon.png" />
-    <Content Include="images\slide-logo.png" />
-    <Content Include="images\slider-bg.jpg" />
-    <Content Include="images\slider-icons.png" />
-    <Content Include="images\social-icons.png" />
-    <Content Include="images\tag-close.png" />
-    <Content Include="images\tags-bg.jpg" />
-    <Content Include="images\works-bg.png" />
-    <Content Include="images\zoom.png" />
-    <Content Include="mountainy\index.html" />
+    <Content Include="index.html" />
+    <Content Include="prog109\experimental\extranotes.html" />
     <Content Include="prog109\experimental\extras.js" />
     <Content Include="prog109\experimental\prologueindex.html" />
-    <Content Include="index.html" />
+    <Content Include="prog109\experimental\index.html" />
     <Content Include="packages.config" />
-    <Content Include="fonts\glyphicons-halflings-regular.woff2" />
-    <Content Include="fonts\glyphicons-halflings-regular.woff" />
-    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
-    <Content Include="fonts\glyphicons-halflings-regular.eot" />
-    <Content Include="Content\bootstrap.css.map" />
-    <Content Include="Content\bootstrap-theme.css.map" />
-    <Content Include="fonts\Nexa_Free_Bold-webfont.ttf" />
-    <Content Include="fonts\Rochester-Regular-webfont.eot" />
-    <Content Include="fonts\Rochester-Regular-webfont.ttf" />
-    <Content Include="fonts\Rochester-Regular-webfont.woff" />
     <None Include="Properties\PublishProfiles\bcjamuna.pubxml" />
     <None Include="Properties\PublishProfiles\BCJamunaPortfolio.pubxml" />
     <None Include="Properties\PublishProfiles\bcjamunaweek4.pubxml" />
     <None Include="Scripts\jquery-1.9.1.intellisense.js" />
-    <Content Include="prog109\experimental\Experimental.aspx" />
-    <Content Include="prog109\style\rhombus.css" />
+    <Content Include="prog109\experimental\solar.css" />
+    <Content Include="prog109\images\cutepuppy.png" />
+    <Content Include="prog109\images\dark-wood.jpg" />
+    <Content Include="prog109\images\greyjb.png" />
+    <Content Include="prog109\images\greyjbcrp.png" />
+    <Content Include="prog109\images\greytile.jpg" />
+    <Content Include="prog109\images\greytilesm.png" />
+    <Content Include="prog109\images\greytilesmm.png" />
+    <Content Include="prog109\images\header.jpg" />
+    <Content Include="prog109\images\jb.png" />
+    <Content Include="prog109\myportfolio\contactform.html" />
+    <Content Include="prog109\experimental\draftcontactform.html" />
+    <Content Include="prog109\style\contactform.css" />
+    <Content Include="prog109\style\portfoliostyle.css" />
+    <Content Include="prog109\experimental\rhombus.css" />
     <Content Include="prog109\experimental\rhombus.html" />
     <Content Include="prog109\experimental\rhombus.js" />
     <Content Include="Scripts\bootstrap.js" />
@@ -192,7 +136,7 @@
     <Content Include="prog109\experimental\contactusform.html" />
     <Content Include="prog109\chess\chesspage.html" />
     <Content Include="prog109\artifacts\contactus.html" />
-    <Content Include="prog109\experimental\css3.html" />
+    <Content Include="prog109\experimental\css3tutorial.html" />
     <Content Include="prog109\experimental\styles\mainstylecss3.css" />
     <Content Include="prog109\experimental\styles\heading.css" />
     <Content Include="prog109\experimental\styles\paragraph.css" />
@@ -254,20 +198,7 @@
     <Content Include="prog109\style\week6style.css" />
     <Content Include="Web.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Compile Include="prog109\experimental\Experimental.aspx.cs">
-      <DependentUpon>Experimental.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="prog109\experimental\Experimental.aspx.designer.cs">
-      <DependentUpon>Experimental.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="mountainy\js\" />
-    <Folder Include="prog109\experimental\assets\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

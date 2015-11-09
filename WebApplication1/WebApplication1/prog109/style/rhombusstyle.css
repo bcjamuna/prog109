@@ -1,4 +1,10 @@
-﻿body {
+﻿* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
     background-image: url('../images/geolighttexture.jpg');
     font-family: sans-serif;
     color: white;
@@ -6,7 +12,7 @@
     text-align: center;
     padding-top: 1%;
     overflow: auto;
-    background-size: contain;
+    
 }
 
 #upperLeft, #upperRight, #bottomLeft, #bottomRight {
